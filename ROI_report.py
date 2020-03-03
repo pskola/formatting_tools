@@ -12,7 +12,7 @@ for file in glob.glob("*.txt"):
 		tex=data.split("\n")
 		te=[line.split(" ") for line in tex]
 		vals=[te[i][5] for i in range(len(te)-1)]
-		f.write(file)
+		f.write(file[:-4]+"\n")
 		for t in vals:
 			f.write(t)
 			f.write("\n")
