@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-#extract third float from ROI report file
-#Usage: python ./ROI_report_mean.py <filename>
+#extract third float from the fsl ROI report file for all files in a directory
+#Usage: python ./ROI_report_mean.py
 
 import glob, os
 
